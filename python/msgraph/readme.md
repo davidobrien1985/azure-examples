@@ -15,6 +15,13 @@ source .venv/bin/activate
 
 `pip3.8 install -r requirements.txt`
 
+- if you receive "package not found" errors with above then install dependencies manually like this
+
+```bash
+pip install -i https://test.pypi.org/simple/ msgraphcore
+pip install azure-identity
+```
+
 - set required environment variables
 
 ```bash
@@ -23,4 +30,5 @@ export AZURE_CLIENT_ID=""
 export AZURE_CLIENT_SECRET=""
 ```
 
-- run with `python3.8 example.py`
+- 
+- run with `python3.8 ./get-aad-group-object-id/example.py`
