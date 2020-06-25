@@ -31,4 +31,4 @@ export AZURE_CLIENT_SECRET=""
 ```
 
 - 
-- run with `python3.8 ./get-aad-group-object-id/example.py`
+- run with `python3.8 ./$PATH_TO_FOLDER/example.py`
